@@ -90,14 +90,15 @@ h2 span{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Julius Sans One', sans-serif;
-	float: left;
-	width: 25%;
 	height: 100%;
 }
 
 .section-title h2{
 	font-weight: 300;
-	font-size: 30px;
+	font-size: 40px;
+	min-height: 8vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
 hr{
@@ -118,14 +119,13 @@ p{
 .top-page-section{
 	margin-top: 120px;
 	width:100%;
-    float:left;
 	min-height: 100vh;
 	/*need to set position such that body shows up under and after header */
 }
 
 .section-content{
-	width: 70%;
-	float:left;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .subsection h2{
@@ -199,6 +199,7 @@ div ul li {
 
 .section-content .focus {
 	text-align: left;
+	width: 80%;
 }
 
 .section-content .focus h3{
@@ -210,8 +211,6 @@ div ul li {
 }
 
 .section-content .time-frame{
-	width:25%;
-	font-weight: 300;
 	text-align: left;
 }
 
@@ -328,6 +327,13 @@ a:visited{
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
-    }
+	}
+	.top-page-section {
+		margin-top: 240px;
+	}
 
+	.section-content{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
