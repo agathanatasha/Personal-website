@@ -1,48 +1,48 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	margin: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
-a{
-	cursor: pointer;
+a {
+    cursor: pointer;
 }
 
 /*nav bar*/
-.nav {	
-	text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
-    font-size:12px;
+.nav {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
     letter-spacing: 2px;
-	min-height: 100px;
-	position: fixed;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	right: 0;
-	margin: 0 0 0 0;
-	padding-left: 0;
-	background-color: #666666;
-	overflow: hidden;
+    min-height: 100px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 0 0 0;
+    padding-left: 0;
+    background-color: #666666;
+    overflow: hidden;
 
 }
 
-.nav-box{
-		float: left;
-		display: block;
-		padding-right: 10px;
-		padding-left: 10px;
-		line-height: 100px;
-		color:white;
-		cursor: pointer;
-		text-align: center;
-		list-style-type: none;
-	}
+.nav-box {
+    float: left;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 100px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    list-style-type: none;
+}
 
 #name {
-    font-size:30px;
+    font-size: 30px;
     font-family: 'Poiret One', cursive;
     color: #ffffe6;
     font-weight: bold;
@@ -50,197 +50,202 @@ a{
 }
 
 /*image and text on image*/
-#landing{
+#landing {
     width: 100%;
-    margin-top:100px;
-    position:relative;
-    min-height:90vh;
+    margin-top: 100px;
+    position: relative;
+    min-height: 90vh;
     /* use vh (viewport height) instead of px, so height is as tall as the viewport size allows */
 }
 
-#landing-pic{
+#landing-pic {
     width: 100%;
     height: auto;
     max-width: 100%;
     max-height: 100%;
 }
 
-#text-on-image{
-    position:absolute;
-    top:200px;
-    width:100%;
+#text-on-image {
+    position: absolute;
+    top: 200px;
+    width: 100%;
     font-family: 'Lora', serif;
 }
 
-h2 span{
-    text-align:center;
+h2 span {
+    text-align: center;
     color: white;
-    display:block;
-    
+    display: block;
+
 }
+
 /*sections*/
-.section{
-    width:100%;
-    float:left;
-	min-height: 90vh;
-	/*need to set position such that body shows up under and after header */
+.section {
+    width: 100%;
+    float: left;
+    min-height: 90vh;
+    /*need to set position such that body shows up under and after header */
 }
 
-.section-title{
-	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Julius Sans One', sans-serif;
-	height: 100%;
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    height: 100%;
 }
 
-.section-title h2{
-	font-weight: 300;
-	font-size: 40px;
-	min-height: 8vh;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+.section-title h2 {
+    font-weight: 300;
+    font-size: 40px;
+    min-height: 8vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
-hr{
-   width:200px; 
-   color: rgb(128,128,128)
+hr {
+    width: 200px;
+    color: rgb(128, 128, 128)
 }
 
-p{
-	width: 85%;
-	font-weight: 100;
-	font-size: 18px;
-	line-height: 2;
-	text-indent: 50px;
+p {
+    width: 85%;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 2;
+    text-indent: 50px;
 }
 
 
 /*Skills page*/
-.top-page-section{
-	margin-top: 120px;
-	width:100%;
-	min-height: 100vh;
-	/*need to set position such that body shows up under and after header */
+.top-page-section {
+    margin-top: 120px;
+    width: 100%;
+    min-height: 100vh;
+    /*need to set position such that body shows up under and after header */
 }
 
-.section-content{
-	margin-left: 15%;
-	margin-right: 15%;
+.section-content {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.subsection h2{
-	margin-top: 5px;
-	margin-bottom: 10px;
+.subsection h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
-.dual-col{
-	width: 50%;
-	float: left;
+.dual-col {
+    width: 50%;
+    float: left;
 }
 
-.dual-col h4{
-	margin-bottom: 8px;
-	margin-top: 5px;
+.dual-col h4 {
+    margin-bottom: 8px;
+    margin-top: 5px;
 }
 
-.progress{
-	width: 90%;
-	position: relative;
-	height: 20px;
-	border-radius: 4px;
-	background-color: #d6e4f5;
-	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-	margin-bottom: 10px;
+.progress {
+    width: 90%;
+    position: relative;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #d6e4f5;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    margin-bottom: 10px;
 
 }
 
-.progress-bar{
-	position: absolute;
-	background-color: #337ab7;
-	height: 100%;
-	border-radius: 4px;
+.progress-bar {
+    position: absolute;
+    background-color: #337ab7;
+    height: 100%;
+    border-radius: 4px;
 }
 
 .sr-only {
-	width: 100%;
-	text-align:center;
-	display: block;
-	color: white;
-	font-weight: bold;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: bold;
 }
 
-.subsection{
-	overflow: hidden;
+.subsection {
+    overflow: hidden;
 }
 
-.cs-skills-list{
-	float:left;
-	width: 33%;
+.cs-skills-list {
+    float: left;
+    width: 33%;
 }
 
 .cs-skills-list h3 {
-	font-family: "Lato", sans-serif;
-	text-transform: uppercase;
-	font-weight: 300;
-	letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 div ul li {
-	display: list-item;
-	font-family: "Khula", sans-serif;
-	font-weight: lighter;
+    display: list-item;
+    font-family: "Khula", sans-serif;
+    font-weight: lighter;
 }
 
 .trans-skills-list {
-	float:left;
-	width: 50%;
+    float: left;
+    width: 50%;
 }
 
 
 .section-content .focus {
-	text-align: left;
-	width: 80%;
+    text-align: left;
+    width: 80%;
 }
 
-.section-content .focus h3{
-	font-family: "Lato", sans-serif;
-	text-transform: uppercase;
-	font-weight: 500;
-	letter-spacing: 2px;
-	color: #d9b346;
+.section-content .focus h3 {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #d9b346;
 }
 
-.section-content .time-frame{
-	text-align: left;
+.section-content .time-frame {
+    text-align: left;
 }
 
-.block-title{
-	width:100%;
-	margin-left:-5px;
+.section-content .time-frame p {
+    color: black;
+}
+
+.block-title {
+    width: 100%;
+    margin-left: -5px;
 }
 
 
 .history-block p {
-	font-family: "Khula", sans-serif;
-	color: rgba(26,26,26,.6);
-	font-size: 16px;
-	display: inline-block;
-	margin-top: 8px;
-	margin-bottom: 8px;
-	text-indent: 0px;
+    font-family: "Khula", sans-serif;
+    color: rgba(26, 26, 26, .6);
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-indent: 0px;
 }
 
 .history-block ul {
-	width: 95%;
+    width: 95%;
 }
 
 .history-block h4~ul li {
-	list-style: none;
+    list-style: none;
 }
 
-#last-word{
-	text-align: center;
-	line-height: 2;
+#last-word {
+    text-align: center;
+    line-height: 2;
 }
 
 
@@ -255,30 +260,30 @@ div ul li {
     color: white;
 }
 
-a:link{
-	text-decoration: none;
-	color: #1da8af
+a:link {
+    text-decoration: none;
+    color: #1da8af
 }
 
-a:visited{
-	text-decoration: none;
-	color: #0059b3
+a:visited {
+    text-decoration: none;
+    color: #0059b3
 }
 
-.col-30{
-	width:30%;
+.col-30 {
+    width: 30%;
 }
 
-.col-60{
-	width: 60%;
+.col-60 {
+    width: 60%;
 }
 
 /* contact me list*/
-.social-media{
-	float: left;
-	display: inline;
-	padding-right: 10px;
-	padding-left: 10px;
+.social-media {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -293,12 +298,13 @@ a:visited{
     outline: none;
     transition: 0.4s;
     font-family: "Khula", sans-serif;
-	color: rgba(26,26,26,.6);
-	font-size: 16px;
+    color: rgba(26, 26, 26, .6);
+    font-size: 16px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #ccc;
 }
 
@@ -312,7 +318,8 @@ a:visited{
 }
 
 .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
@@ -320,20 +327,22 @@ a:visited{
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
 }
 
 /*mobile responsive - settings for small screens*/
 @media only screen and (max-width: 768px) {
     [class*="col-"] {
         width: 100%;
-	}
-	.top-page-section {
-		margin-top: 240px;
-	}
+    }
 
-	.section-content{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
+    .top-page-section {
+        margin-top: 240px;
+    }
+
+    .section-content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
